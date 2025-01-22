@@ -5,10 +5,11 @@
 This project is designed to enable users to **draw mathematical expressions** on a canvas, solve them using an AI-powered backend, and display the results dynamically. It combines **interactive drawing**, **real-time computation**, and **beautiful mathematical formatting** to create an engaging user experience. Below, we’ll go through why each technology, tool, and technique was used in the project.
 
 
-## 📹 Demo Video  
+##  🎬 Demo Video  
 
 
-[![Watch the demo](/1w.png)](https://drive.google.com/file/d/1u9SXeHG-7whiAqtuMKyySofwMUxIEvGJ/view?usp=sharing)
+
+[![Watch the demo](/2w.png)](https://drive.google.com/file/d/1u9SXeHG-7whiAqtuMKyySofwMUxIEvGJ/view?usp=sharing)
 
 
 ## **Frontend:**
@@ -275,9 +276,9 @@ POST /calculate
    ```bash
    pyton main.py
    ```
-## 🎥 **Project Walkthrough**  
+## 🎥 🎬 **Project Walkthrough**  
 Check out the complete walkthrough of this project:  
-[![Watch the demo](/2w.png)](https://drive.google.com/file/d/1QKEe9vennkjPOVX-UVPo7f44MY3IXIEn/view?usp=sharing)  
+[![Watch the demo](/1w.png)](https://drive.google.com/file/d/1QKEe9vennkjPOVX-UVPo7f44MY3IXIEn/view?usp=sharing)  
 
 
 
