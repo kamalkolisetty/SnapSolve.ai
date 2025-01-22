@@ -5,6 +5,11 @@
 This project is designed to enable users to **draw mathematical expressions** on a canvas, solve them using an AI-powered backend, and display the results dynamically. It combines **interactive drawing**, **real-time computation**, and **beautiful mathematical formatting** to create an engaging user experience. Below, we’ll go through why each technology, tool, and technique was used in the project.
 
 
+# Demo 
+
+[1w.png](https://drive.google.com/file/d/1u9SXeHG-7whiAqtuMKyySofwMUxIEvGJ/view?usp=sharing)
+
+
 ## **Frontend:**
 
 #### **React.js** 💡
@@ -264,18 +269,38 @@ POST /calculate
    ```
 
 ### **Backend Setup (FastAPI)**
-``
 
  **Start the server**:
    ```bash
    pyton main.py
    ```
 
+ 
+
+## 🌟 **Future Enhancements**  
+
+### 1. **Undo/Redo Feature 🕰️**  
+Introduce **Undo/Redo** functionality to make the system more user-friendly. Users will have the flexibility to revert changes or redo them effortlessly, especially while analyzing complex equations or graphical problems.  
+
 ---
 
-## 📈 **Possible Improvements**
+### 2. **Model Selection 🤖**  
+Provide an option for users to choose from a variety of AI models (e.g., **Google Gemini**, **OpenAI**, or **Hugging Face Transformers**) based on the problem type and their preferences. This will empower users to leverage the best-fit model for their tasks!  
 
-1. **Advanced AI Model**: Use advanced AI models like **GPT-4** to provide even more accurate solutions for complex expressions.
-2. **Math Tools**: Add advanced math tools like **integrals**, **derivatives**, and **equation solvers**.
-3. **User Accounts**: Allow users to save their drawings and solutions to track progress.
+---
+
+### 3. **Interactive Graphical Analysis 📊**  
+Enable real-time interaction with graphical solutions—such as zooming, hovering for details, or step-by-step annotations. For instance, solving quadratic equations could dynamically plot roots on a graph for better visualization!  
+
+---
+
+### 4. **OCR Integration for Handwritten Equations ✍️**  
+Incorporate **Optical Character Recognition (OCR)** to process handwritten or scanned equations directly. This feature would broaden accessibility and cater to users who prefer to upload written notes instead of typing expressions.  
+
+---
+
+### 5. **Export Results in Multiple Formats 📤**  
+Allow users to export analyzed results in formats like **PDF**, **Excel**, or **JSON**. This feature will help users save and share their work efficiently, catering to academic and professional use cases.  
+
+
 
