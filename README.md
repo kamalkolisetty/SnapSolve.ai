@@ -5,7 +5,8 @@
 This project is designed to enable users to **draw mathematical expressions** on a canvas, solve them using an AI-powered backend, and display the results dynamically. It combines **interactive drawing**, **real-time computation**, and **beautiful mathematical formatting** to create an engaging user experience. Below, we’ll go through why each technology, tool, and technique was used in the project.
 
 
-# Demo 
+## 📹 Demo Video  
+
 
 [![Watch the demo](/1w.png)](https://drive.google.com/file/d/1u9SXeHG-7whiAqtuMKyySofwMUxIEvGJ/view?usp=sharing)
 
@@ -274,6 +275,31 @@ POST /calculate
    ```bash
    pyton main.py
    ```
+## 🎥 **Project Walkthrough**  
+Check out the complete walkthrough of this project:  
+[![Watch the demo](/2w.png)](https://drive.google.com/file/d/1QKEe9vennkjPOVX-UVPo7f44MY3IXIEn/view?usp=sharing)  
+
+
+
+ 
+
+### 🛠 **Pro Tip for API Response Handling**  
+
+> **Always log API responses during development** or when troubleshooting issues. Logging helps you:  
+> - **Understand the structure** of the response, especially for APIs that may have dynamic or unexpected formats.  
+> - **Diagnose parsing errors** when using functions like `ast.literal_eval` or `json.loads`.  
+> - Avoid misinterpretations of the data returned by the API.
+
+---
+
+### 🌟 **Why Log Responses?**  
+1. **Debugging Made Easy 🐞:** If something fails, you can quickly inspect the raw response to identify what went wrong.  
+2. **Data Format Changes 🔄:** APIs can evolve over time, and logging responses helps you adapt to changes without guesswork.  
+3. **Testing and Validation ✅:** You can compare logged responses during testing to ensure the API behaves consistently.
+
+---
+
+
 
  
 
