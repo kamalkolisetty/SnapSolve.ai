@@ -42,16 +42,7 @@ This project is designed to enable users to **draw mathematical expressions** on
 ---
 
 ### **Backend:**
-#### **Node.js** 🚀
-- **Why Node.js?**
-  - **Node.js** is a **JavaScript runtime** built on Chrome’s V8 JavaScript engine, allowing us to run JavaScript on the server-side. Using Node.js aligns with our decision to use JavaScript on both the frontend and backend, making the development process seamless and reducing the cognitive load of switching between different programming languages.
-  - Node.js is highly **scalable** and suitable for building lightweight, fast I/O applications like ours, which require quick responses to user requests (i.e., solving mathematical equations).
-  
-#### **Express.js** ⚙️
-- **Why Express?**
-  - Express.js is a **minimal and flexible Node.js web application framework** that simplifies the creation of robust and scalable web applications. It provides a simple API for routing and middleware handling, which makes it ideal for building RESTful services like our API.
-  - In this project, Express handles incoming HTTP requests from the frontend (canvas image and variables) and processes the data to compute mathematical results. It also manages the integration of **AI models** or algorithms for equation solving.
-  
+ 
 ---
 
 ### **Drawing on Canvas:**
@@ -105,40 +96,31 @@ This project is designed to enable users to **draw mathematical expressions** on
 
 ## ⚙️ **Installation and Setup**
 
-### **Frontend Setup (React + Vite + TypeScript)**
+
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/project-name.git
+   git clone https://github.com/kamalkolisetty/kamal-windowsToo.git
    ```
 
 2. **Install dependencies**:
    ```bash
-   cd project-name
+   cd windowsToo
    npm install
    ```
 
-3. **Start the development server**:
+### **Frontend Setup (React + Vite + TypeScript)**
+ **Start the development server**:
    ```bash
    npm run dev
    ```
 
-### **Backend Setup (Node.js + Express)**
+### **Backend Setup (FastAPI)**
+``
 
-1. **Clone the backend repository** (if separated):
+ **Start the server**:
    ```bash
-   git clone https://github.com/your-username/backend-repo.git
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   cd backend-repo
-   npm install
-   ```
-
-3. **Start the server**:
-   ```bash
-   npm run start
+   pyton main.py
    ```
 
 ---
