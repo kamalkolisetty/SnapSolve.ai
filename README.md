@@ -7,7 +7,7 @@ This project is designed to enable users to **draw mathematical expressions** on
 
 # Demo 
 
-[1w.png](https://drive.google.com/file/d/1u9SXeHG-7whiAqtuMKyySofwMUxIEvGJ/view?usp=sharing)
+[![Watch the demo](/1w.png)](https://drive.google.com/file/d/1u9SXeHG-7whiAqtuMKyySofwMUxIEvGJ/view?usp=sharing)
 
 
 ## **Frontend:**
