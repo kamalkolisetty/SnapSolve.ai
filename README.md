@@ -39,9 +39,7 @@ Perfect for **students**, **educators**, and **creatives** who love turning imag
 Dive in and experience it yourself:  
 - [Netlify](https://snapsolve-ai.netlify.app/)  
 - [Choreo](https://ab778f97-bbe9-4c37-b86f-4cca944bc744.e1-us-east-azure.choreoapps.dev)  
-
----
-
+ 
  
 ### 🌟 Let’s not just solve problems — let’s **Solve, Save & Shine!** ❤️✨
 
@@ -65,9 +63,7 @@ SnapSolve.ai is your creative playground, transforming *any* drawing in *any lan
 
 ---
 
----
-
-### Installation Steps  
+ 
 
  
 
@@ -129,9 +125,7 @@ To unlock the full AI-powered functionality of SnapSolve.ai, clone the repositor
 ```
 
  
----
-
-### Code Snippets  
+ 
 
 ```
 ### 1. Canvas Setup with Windows Icon
@@ -329,20 +323,33 @@ SnapSolve.ai redefines creativity and learning with:
 
 ## 🎥 Demo Video
 
-[Watch the Demo](https://drive.google.com/file/d/1CFd3Oou9HO4tmP79kJpBWyM7HsB82khc/view?usp=sharing)  
+[![Landing Page](wtoo/1.png)](https://drive.google.com/file/d/1CFd3Oou9HO4tmP79kJpBWyM7HsB82khc/view?usp=sharing)  
 *Witness SnapSolve.ai transform equations, multilingual poetry, and sketches into stunning results under the `windowsToo` banner!*
 
 ---
 
+ 
+
 ## 📸 Screenshots
 
-*(Placeholders—update with your screenshots)*  
+Explore SnapSolve.ai’s vibrant features through these screenshots, showcasing its versatility and user-friendly design:
+
 | Screenshot | Description |
 |------------|-------------|
-| ![Canvas Drawing](https://via.placeholder.com/600x400.png?text=Drawing+a+Physics+Diagram) | Sketching a pulley system with the smiley cursor and Windows icon favicon. |
-| ![LaTeX Output](https://via.placeholder.com/600x400.png?text=LaTeX+Output) | Draggable box displaying `∫(x^2 dx) = (x^3)/3 + C`. |
-| ![About Page](https://via.placeholder.com/600x400.png?text=About+Page) | Floating π, √, and ❤️ with vibrant feature cards and Windows icon favicon. |
+| ![Landing Page](wtoo/1.png) | The welcoming landing page of SnapSolve.ai, featuring the `windowsToo` branding and Windows icon favicon. |
+| ![Drawing Love Symbol](wtoo/2.png) | Sketching a heart symbol on the canvas, interpreted as “love” by the AI, with the smiley cursor in action. |
+| ![Result of Love Symbol](wtoo/3.png) | Displaying the AI-generated result for the heart sketch, rendered in a draggable text box. |
+| ![Writing Mathematical Equations](wtoo/4.png) | Writing a mathematical equation (e.g., `x^2 + 2x + 1 = 0`) on the canvas with vibrant swatches. |
+| ![Save Canvas Option](wtoo/5.png) | Demonstrating the *Save Canvas* feature, downloading the drawing as `snapsolve_ai.png`. |
+| ![Equation Evaluation](wtoo/6.png) | Showing the equation evaluated by Gemini AI, with the result (e.g., `x = -1`) in a draggable LaTeX box. |
+| ![Mobile Responsiveness](wtoo/7.png) | Highlighting the responsive design on mobile, with a white canvas and stacked navbar for ease of use. |
+| ![Mobile Responses](wtoo/8.png) | Displaying AI-generated results on a mobile screen, optimized for readability and interaction. |
+| ![Print Option](wtoo/9.png) | Showcasing the *Print* option, opening a formatted page with the *Solve, Save, Shine!* tagline and Windows icon favicon. |
+| ![Print PDF](wtoo/11.png) | Previewing the generated PDF from the print page, perfect for professional outputs. |
+| ![About Page on Desktop](wtoo/12.png) | The vibrant About page on desktop, featuring floating symbols (π, √, ∞, ❤️, ✨, ☕) and interactive feature cards. |
+| ![About Page on Smaller Screens](wtoo/13.png) | The About page on a smaller desktop width, showcasing responsive design with animated symbols. |
 
+ 
 ---
 
 ## 🌍 Inspiration: From Vision to Reality
@@ -390,8 +397,7 @@ Contributions are welcome to enhance SnapSolve.ai! To contribute:
 - **Open-Source Community**: Gratitude to React, TypeScript, Vite, FastAPI, Google Gemini API, PIL, `Authman2/Canvas`, `shuding/apple-pencil-safari-api-test`, and Stack Overflow for their invaluable resources.
 - **Inspiration**: An Apple advertisement for canvas evaluation, reimagined as `windowsToo` for universal accessibility.
 
-Connect via [LinkedIn](https://www.linkedin.com/in/kamal-kumar-kolisetty-19b944221/).
-
+ 
 ---
 
 ## 📬 Contact
