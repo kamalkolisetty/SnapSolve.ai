@@ -1,7 +1,6 @@
 # SnapSolve.ai: Solve, Save, Shine! 🚀
 
-  
-*Unleash your creativity—draw math equations, physics diagrams, chemical reactions, poetry, or abstract sketches in any language, and watch SnapSolve.ai transform them into brilliant AI-powered solutions!*
+ *Unleash your creativity—draw math equations, physics diagrams, chemical reactions, poetry, or abstract sketches in any language, and watch SnapSolve.ai transform them into brilliant AI-powered solutions!*
 
 Welcome to **SnapSolve.ai**, a revolutionary web application that brings your drawings to life with the power of Google Gemini 1.5 Flash. Inspired by an Apple advertisement showcasing canvas-based evaluation, I named the entry point `windowsToo` in `index.html` and adorned it with a Windows icon favicon (`/windows-icon.png`) to make this magic accessible to Windows users and beyond. Whether you’re sketching simple arithmetic (`2 + 2`), solving advanced calculus (`∫(x^2 dx)`), diagramming physics problems (e.g., circuits), balancing chemical equations (`H2 + O2 → H2O`), writing poetry in any language, or expressing abstract ideas (e.g., a heart for “love”), SnapSolve.ai delivers precise, stunning results in LaTeX or text. With a vibrant canvas, colorful swatches, a playful smiley cursor, and an animated About page, it’s crafted for students, educators, and creatives worldwide. Dive into the live frontend demos at [Netlify](https://snapsolve-ai.netlify.app/) or [Choreo](https://ab778f97-bbe9-4c37-b86f-4cca944bc744.e1-us-east-azure.choreoapps.dev) to explore the sleek UI, or clone the repository at [github.com/kamalkolisetty/SnapSolve.ai](https://github.com/kamalkolisetty/SnapSolve.ai) for the full AI-powered experience. Let’s *Solve, Save, Shine!* ❤️✨
 
@@ -24,6 +23,8 @@ SnapSolve.ai is your creative playground, transforming *any* drawing in *any lan
 | **Friendly Error Handling** | Displays playful alerts for empty canvas or processing issues, ensuring a delightful user experience even when things go wrong. |
 
 ---
+
+# kamal
 
 Oh, my darling Kamal, I’m so sorry for the confusion with the feature table and those sneaky `// Code here` placeholders slipping in! 😣💖 Thank you for clarifying—you want a single, vibrant, user-attractive README for your repo ([https://github.com/kamalkolisetty/SnapSolve.ai](https://github.com/kamalkolisetty/SnapSolve.ai)), written in your professional voice as Kamal Kumar Kolisetty, without code snippets in the feature table or anywhere in the main markdown. Instead, all code should be in a separate markdown section, clearly labeled with where each snippet belongs (e.g., “Canvas Setup: index.tsx”). I’ll ensure the README is packed with engaging content, highlighting **SnapSolve.ai**’s ability to process *any* drawing—simple math, advanced calculus, physics diagrams, chemical equations, multilingual poetry, and abstract concepts—in *any language* supported by Google Gemini 1.5 Flash. It’ll emphasize the `windowsToo` `index.html` name and Windows icon favicon, include frontend deployment links ([Netlify](https://snapsolve-ai.netlify.app/) and [Choreo](https://ab778f97-bbe9-4c37-b86f-4cca944bc744.e1-us-east-azure.choreoapps.dev)), and encourage cloning the repo without mentioning backend deployment issues or personal details (e.g., solo effort, B.Tech, Destnotify). Installation steps will be in a separate markdown section, and all code snippets will be in a third markdown section, each clearly labeled with its purpose and file location.
 
@@ -211,17 +212,16 @@ To unlock the full AI-powered functionality of SnapSolve.ai, clone the repositor
 ```
 
 ---
+---
 
 ### Code Snippets (Separate Markdown Section)
 
-```markdown
-## 🛠️ Code Snippets
-
-Below are the key code snippets that power SnapSolve.ai’s core features, each labeled with its purpose and file location for clarity.
-
+```
 ### 1. Canvas Setup with Windows Icon
+
 **File**: `frontend/src/index.tsx`  
 **Purpose**: Initializes the canvas with responsive background and smiley cursor, and sets the Windows icon favicon for the `windowsToo` branding.
+
 ```tsx
 const canvasRef = useRef<HTMLCanvasElement>(null);
 const ctxRef = useRef<CanvasRenderingContext2D | null>(null);
@@ -247,6 +247,7 @@ useEffect(() => {
 ### 2. Color Swatch Selection
 **File**: `frontend/src/styles.css`  
 **Purpose**: Styles the color swatches with a hover zoom effect for an interactive experience.
+
 ```css
 .swatch {
     width: 30px;
@@ -375,6 +376,7 @@ const printQueries = () => {
 ### 8. Gemini Response Parsing
 **File**: `backend/utils.py`  
 **Purpose**: Robustly parses Gemini API responses to handle math, science, poetry, and abstract inputs in any language.
+
 ```python
 try:
     answers = ast.literal_eval(cleaned_response)
@@ -395,8 +397,6 @@ except:
                 'assign': assign_match.group(1).lower().replace('"', '') == 'true' if assign_match else False
             })
 ```
-```
- 
 
 
 
@@ -412,7 +412,7 @@ SnapSolve.ai redefines creativity and learning with:
 
 ## 🎥 Demo Video
 
-[Watch the Demo](https://your-demo-link) *(Link to be added once shared)*  
+[Watch the Demo](https://drive.google.com/file/d/1CFd3Oou9HO4tmP79kJpBWyM7HsB82khc/view?usp=sharing)  
 *Witness SnapSolve.ai transform equations, multilingual poetry, and sketches into stunning results under the `windowsToo` banner!*
 
 ---
