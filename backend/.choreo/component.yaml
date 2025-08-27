@@ -1,8 +1,6 @@
 schemaVersion: "1.2"
 build:
-  steps:
-    - name: install-dependencies
-      run: pip install -r requirements.txt
+  container: Dockerfile
 
 endpoints:
   - name: rest-api-be2
@@ -14,5 +12,3 @@ endpoints:
     networkVisibilities:
       - Project
       - Public
-
-start: python3 main.py
