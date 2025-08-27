@@ -108,7 +108,7 @@ To unlock the full AI-powered functionality of SnapSolve.ai, clone the repositor
   GEMINI_API_KEY2=your-key2
   GEMINI_API_KEY3=your-key3
   SERVER_URL=0.0.0.0
-  PORT=8000
+  PORT=8900
   ENV=dev
   ```
 
@@ -324,7 +324,7 @@ SnapSolve.ai redefines creativity and learning with:
 
 ## 🎥 Demo Video
 
-[![Landing Page](wtoo/1.png)](https://drive.google.com/file/d/1CFd3Oou9HO4tmP79kJpBWyM7HsB82khc/view?usp=sharing)  
+[![Landing Page](wtoo/2.png)](https://drive.google.com/file/d/1CFd3Oou9HO4tmP79kJpBWyM7HsB82khc/view?usp=sharing)  
 *Witness SnapSolve.ai transform equations, multilingual poetry, and sketches into stunning results under the `windowsToo` banner!*
 
 ---
@@ -398,4 +398,4 @@ Have questions or ideas? Reach out via [GitHub Issues](https://github.com/kamalk
 
 Let’s *Solve, Save, Shine!* 🚀
 
-©KWorks | Crafted with ✨
+©KWorks | Crafted with ✨ & ☕
