@@ -122,12 +122,13 @@ To unlock the full AI-powered functionality of SnapSolve.ai, clone the repositor
 - Use *Save Canvas* to download as `snapsolve_ai.png`.
 - Click *Print* for a professional output page with the Windows icon favicon.
 - Explore the About page for animated symbols and feature highlights.
-```
 
- 
- 
 
-```
+## 🔥 Important Code Parts
+
+Below are the key code snippets that power SnapSolve.ai’s core features, each labeled with its purpose and file location for clarity.
+
+
 ### 1. Canvas Setup with Windows Icon
 
 **File**: `frontend/src/index.tsx`  
@@ -368,16 +369,7 @@ SnapSolve.ai leverages a robust stack of open-source technologies, enhanced with
 | **Backend** | **FastAPI**: High-performance API for processing canvas images. <br> **Google Gemini 1.5 Flash**: AI-powered analysis for multilingual drawings. <br> **PIL (Python Imaging Library)**: Decodes base64 images for processing. <br> **uvicorn**: ASGI server for development mode. <br> **python-dotenv**: Manages environment variables (e.g., `GEMINI_API_KEY`). <br> **logging, re, ast**: Robust debugging and response parsing. |
 | **Inspiration** | Open-source projects like `Authman2/Canvas` and `shuding/apple-pencil-safari-api-test`, alongside official documentation for React, FastAPI, Gemini API, and Stack Overflow community insights. |
 
----
-
-## 🌟 Try It Out
-
-Experience the vibrant UI at the live frontend demos:
-- [Netlify](https://snapsolve-ai.netlify.app/)
-- [Choreo](https://ab778f97-bbe9-4c37-b86f-4cca944bc744.e1-us-east-azure.choreoapps.dev)
-
-Draw, erase, save PNGs, and explore the animated About page with its Windows icon favicon. For the full AI-powered experience, clone the repository at [github.com/kamalkolisetty/SnapSolve.ai](https://github.com/kamalkolisetty/SnapSolve.ai) and follow the installation steps below.
-
+ 
 ---
 
 ## 🤝 Contributing
