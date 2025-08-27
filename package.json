@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/react-mathjax": "^1.0.4",
+    "react-mathjax": "^1.0.1"
+  }
+}
