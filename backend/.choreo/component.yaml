@@ -1,4 +1,9 @@
 schemaVersion: "1.2"
+build:
+  steps:
+    - name: install-dependencies
+      run: pip install -r requirements.txt
+
 endpoints:
   - name: rest-api-be2
     displayName: REST API
@@ -9,3 +14,5 @@ endpoints:
     networkVisibilities:
       - Project
       - Public
+
+start: python3 main.py
