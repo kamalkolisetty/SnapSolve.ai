@@ -1,9 +1,9 @@
 
 <!-- PORTFOLIO DATA
 title: SnapSolve.ai
-description: A web app that transforms sketches into knowledge using Google Gemini 1.5 Flash.
-skills: react, typescript, vite, fastapi, gemini-api
-image:https://raw.githubusercontent.com/kamalkolisetty/SnapSolve.ai/main/wtoo/2.png
+description: Unleash your creativity with SnapSolve.ai, a dynamic web app that transforms your sketches into actionable insights, powered by the cutting-edge Google Gemini 1.5 Flash AI.
+skills: React, TypeScript, Vite, FastAPI, Gemini-API
+image: https://raw.githubusercontent.com/kamalkolisetty/SnapSolve.ai/main/wtoo/2.png
 -->
 
 # 🚀 Welcome to **SnapSolve.ai**
